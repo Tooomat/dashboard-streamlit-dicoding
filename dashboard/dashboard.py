@@ -28,8 +28,8 @@ def create_count_year(csv, fist, last):
     return hour_df_year
 
 try:
-    hour_csv_path = os.path.abspath("../dashboard/day-1.csv")
-    day_csv_path = os.path.abspath("../dashboard/hour-1.csv")
+    hour_csv_path = os.path.abspath("dashboard/day-1.csv")
+    day_csv_path = os.path.abspath("dashboard/hour-1.csv")
     hour_df = pd.read_csv(hour_csv_path)
     day_df = pd.read_csv(day_csv_path)
 except FileNotFoundError:
