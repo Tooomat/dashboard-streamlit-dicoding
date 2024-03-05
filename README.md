@@ -5,5 +5,5 @@ pip install pandas matplotlib seaborn streamlit
 streamlit run dashboard.py
 
 # Dont forget to change directory
-cd dasboard
+cd dashboard
 
